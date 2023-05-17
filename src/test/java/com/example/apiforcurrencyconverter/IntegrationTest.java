@@ -28,7 +28,7 @@ public class IntegrationTest {
 
     private RestTemplate restTemplate;
 
-    private String basePath = "http://localhost:8082";
+    private String basePath = "http://localhost:8083";
 
     @Before
     public void setup() {

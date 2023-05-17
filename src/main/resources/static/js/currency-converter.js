@@ -62,6 +62,10 @@ function fillButtonInfo() {
     }
 }
 
+function logout() {
+    window.location.href = "/login";
+}
+
 $("#convertButton").click(function() {
 
     //Get from

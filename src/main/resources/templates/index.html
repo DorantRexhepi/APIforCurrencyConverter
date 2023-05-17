@@ -10,8 +10,12 @@
     <title>Currency Converter</title>
 </head>
     <body>
+    <div class="container">
+        <!-- Shtoni butonin e logout-it -->
+        <button class="btn btn-primary" onclick="logout()">Logout</button>
+    </div>
 
-        <header>
+    <header>
             <div class="collapse bg-dark" id="navbarHeader">
                 <div class="container">
                     <div class="row">
@@ -97,6 +101,7 @@
         <script src="/js/currency-converter.js"></script>
         <script>
             getAllCurrencies();
+            logout();
         </script>
     </body>
 </html>
